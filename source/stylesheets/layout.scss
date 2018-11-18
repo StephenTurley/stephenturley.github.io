@@ -5,10 +5,9 @@
     "header header"
     "nav article";
 
-  grid-template-rows: 80px auto;
+  grid-template-rows: 100px auto;
   grid-template-columns: 1fr 4fr;
   grid-gap: 1em;
-  padding: 1em;
   height: 100vh;
 
   @media(max-width: 768px) {
@@ -17,6 +16,10 @@
       "article"
       "nav";
     grid-template-columns: auto;
+  }
+
+  & > * {
+    padding: 1em;
   }
 }
 

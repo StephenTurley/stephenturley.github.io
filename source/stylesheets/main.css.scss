@@ -1,5 +1,20 @@
 @import 'layout';
+@import 'colors';
 
 body {
   font-family: 'Karla', sans-serif;
+  background-color: $lola;
+}
+
+a {
+  color: $blue_chill;
+  &:hover {
+    color: $deap_sea_green;
+  }
+}
+
+header {
+  background-color: $heavy_metal;
+  color: $golden_bell;
+  text-align: right;
 }
