@@ -1,7 +1,8 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
-
+require 'slim'
+set :frontmatter_extensions, %w(.html .slim)
 # Per-page layout changes:
 #
 # With no layout
@@ -71,3 +72,4 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+

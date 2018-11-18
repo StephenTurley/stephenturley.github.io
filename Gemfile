@@ -14,6 +14,7 @@ gem "middleman-blog"
 gem "middleman-livereload"
 gem "middleman-gh_pages"
 
+gem 'slim'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
 # For feed.xml.builder
