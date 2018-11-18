@@ -3,18 +3,30 @@
 
 body {
   font-family: 'Karla', sans-serif;
-  background-color: $lola;
+  font-size: 13pt;
+  background-color: white; 
+}
+
+p, h1, h2, h3, h4, h5, span, strong, em {
+  color: $acadia;
+}
+
+p {
+  text-indent: 2em;
 }
 
 a {
-  color: $blue_chill;
+  color: $viridian;
+  text-decoration: none;
+
   &:hover {
-    color: $deap_sea_green;
+    color: $clementine;
   }
 }
 
 header {
-  background-color: $heavy_metal;
-  color: $golden_bell;
-  text-align: right;
+  background-color: $white_lilac;
+  h1 {
+    text-shadow: 1px 1px 3px $acadia;
+  }
 }
