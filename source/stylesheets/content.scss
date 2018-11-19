@@ -1,0 +1,30 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 13pt;
+  background-color: white; 
+  color: $acadia;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 10px 0;
+}
+
+p {
+  text-indent: 2em;
+}
+
+a {
+  color: $viridian;
+  text-decoration: none;
+
+  &:hover {
+    color: $clementine;
+  }
+}
+
+ul {
+  padding-inline-start: 20px;
+  li {
+    list-style-type: none;
+  }
+}

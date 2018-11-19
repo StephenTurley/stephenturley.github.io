@@ -1,32 +1,15 @@
 @import 'layout';
 @import 'colors';
+@import 'content';
 
-body {
-  font-family: 'Karla', sans-serif;
-  font-size: 13pt;
-  background-color: white; 
-}
-
-p, h1, h2, h3, h4, h5, span, strong, em {
-  color: $acadia;
-}
-
-p {
-  text-indent: 2em;
-}
-
-a {
-  color: $viridian;
-  text-decoration: none;
-
-  &:hover {
-    color: $clementine;
-  }
-}
 
 header {
   background-color: $white_lilac;
   h1 {
     text-shadow: 1px 1px 3px $acadia;
   }
+}
+
+article.summary {
+  margin-bottom: 50px;
 }

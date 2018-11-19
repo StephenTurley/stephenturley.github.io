@@ -16,6 +16,7 @@ gem "middleman-gh_pages"
 
 gem 'slim'
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'nokogiri'
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
