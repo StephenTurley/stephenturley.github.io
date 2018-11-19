@@ -5,8 +5,20 @@
 
 header {
   background-color: $white_lilac;
+  display: flex;
   h1 {
     text-shadow: 1px 1px 3px $acadia;
+  }
+
+  .introduction{
+    flex: 4;
+  }
+  .image {
+    flex: 1;
+    text-align: center;
+    img {
+      height: 100px;
+    }
   }
 }
 

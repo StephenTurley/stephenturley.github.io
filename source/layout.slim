@@ -13,10 +13,15 @@ html
   body
     .container
       header
-        h1
-          = link_to 'Stephen Turley', '/'
-        h4 
-          | I write about crafting software
+        .introduction
+          h1
+            = link_to 'Stephen Turley', '/'
+          h4 
+            | I write about crafting software
+
+        .image 
+          = image_tag 'images/me.JPG'
+        
       nav
         h4
           | Recent Articles
