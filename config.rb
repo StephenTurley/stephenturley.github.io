@@ -3,6 +3,8 @@
 ###
 require 'slim'
 set :frontmatter_extensions, %w(.html .slim)
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
 # Per-page layout changes:
 #
 # With no layout
@@ -50,6 +52,8 @@ activate :gh_pages do |gh_pages|
   gh_pages.remote = 'git@github.com:StephenTurley/stephenturley.github.io.git'
   gh_pages.branch = 'master'
 end
+
+activate :syntax
 
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
