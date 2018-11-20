@@ -6,7 +6,7 @@ header {
   background-color: $white_lilac;
   display: flex;
   h1 {
-    text-shadow: 1px 1px 3px $acadia;
+    text-shadow: 1px 1px 2px $acadia;
   }
 
   .introduction{
@@ -14,7 +14,7 @@ header {
   }
   .image {
     flex: 1;
-    text-align: center;
+    text-align: left;
     img {
       height: 100px;
     }

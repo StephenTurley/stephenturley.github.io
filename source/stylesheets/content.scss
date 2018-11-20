@@ -1,8 +1,12 @@
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 13pt;
+  font-size: 1.1em;
   background-color: white; 
   color: $acadia;
+
+  @media(min-width: 1920px) {
+    font-size: 1.3em;
+  }
 }
 
 h1, h2, h3, h4, h5 {
@@ -11,6 +15,9 @@ h1, h2, h3, h4, h5 {
 
 p {
   text-indent: 2em;
+  > img {
+    margin-left: -2em;
+  }
 }
 
 a {
