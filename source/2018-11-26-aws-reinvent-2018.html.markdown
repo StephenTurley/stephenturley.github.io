@@ -1,0 +1,19 @@
+---
+
+title: AWS ReInvent 2018
+date: 2018-11-26 00:31 UTC
+tags: conference,aws
+
+---
+
+# AWS ReInvent 2018
+
+I thought that documenting a suprise trip to Las Vegas for AWS Reinvent would be a great way to relaunch my blog. On Wendsday, before my leaving for Thanksgiving a slack message was sent out to the dev team asking if anyone would like a free ticket to Vegas. The last minute ticket was transferred from a collegue that had to cancel at the last minute. I quickly answered that I would like to go and a few days later, here I am. 
+
+Now, to add a dash of serendipity to this trip, I discovered during Thanksgiving dinner that my brother would be visiting the same conference. We don't get to see each other much these days due to logistical complications and family obligations, so this was a pleasent suprise. It will be nice to meet each other's co-workers and talk shop as well. He was showing me some things they were doing with Kubernetes and New Relic that I thought would be very useful for some of my own projects. 
+
+Given a hectic holiday weekend and the last minute nature of my visit, I haven't made a lot of plans other than transportation and a hotel. I do have a few goals though. I would like to learn more about Neptune, the graph database from AWS. The lack of competitors in the graph database market has allowed Neo4j to charge exuberant prices for their offerings. I suspect it will be years before the tooling is mature enough to migrate any existing projects to it, but I'd be very happy to learn that isn't the case.
+
+My other goal is to just learn more about deploying, montitoring, and maintaining cloud services. I, like many developers, know just enough about that side of the business to deploy and troubleshoot things that I work on every day. I'm often not in a position to offer alternatives to proposed designs due to ignorance and I hope to remedy that. 
+
+My last interest is around mobile developement. Particularly strategies for syncing data to mobile clients and stateful cloud services. I've only just started learning about AWS appsync and it looks like it has some good ideas that I'd like to dig into. 
