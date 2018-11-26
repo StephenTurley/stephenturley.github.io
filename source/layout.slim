@@ -46,3 +46,13 @@ html
               = link_to "#{year} (#{articles.size})", blog_year_path(year)
       main
         = yield
+
+  script {
+    async 
+    src="https://www.googletagmanager.com/gtag/js?id=UA-16791255-2"
+  }
+  javascript:
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-16791255-2');
