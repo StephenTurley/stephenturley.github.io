@@ -22,6 +22,11 @@ header {
   }
 }
 
-article.summary {
-  margin-bottom: 50px;
+article {
+  img {
+    width: 100%;
+  }
+  &.summary {
+    margin-bottom: 50px;
+  }
 }
