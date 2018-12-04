@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2018-11-25T19:31:00-05:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>AWS ReInvent 2018</title>
+    <link rel="alternate" href="http://blog.url.com/2018/11/26/aws-reinvent-2018.html"/>
+    <id>http://blog.url.com/2018/11/26/aws-reinvent-2018.html</id>
+    <published>2018-11-25T19:31:00-05:00</published>
+    <updated>2018-12-03T20:24:00-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1&gt;AWS re:Invent 2018&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src="/images/aws_welcome.jpg" alt="AWS re:Invent welcome" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I thought that documenting a surprise trip to Las Vegas for AWS re:Invent would be a great way to relaunch my blog. On Wednesday, before leaving for Thanksgiving break, a slack message was sent out to the team asking if anyone would like to attend the event. I quickly answered that I would like to go and a few days later, here I am.&lt;/p&gt;
+
+&lt;p&gt;Now, to add a dash of serendipity to this trip, I discovered during Thanksgiving dinner that my &lt;a href="https://twitter.com/turleynerd"&gt;brother&lt;/a&gt; would be going as well. We don&amp;rsquo;t get to see each other much these days due to logistical complications and family obligations, so this was a pleasant surprise. He was showing me some things they were doing with Kubernetes and New Relic that I thought would be very useful for some of my own projects.&lt;/p&gt;
+
+&lt;p&gt;Given a hectic holiday weekend and the last minute nature of my visit, I haven&amp;rsquo;t made a lot of plans other than transportation and a hotel. I do have a few goals though. I would like to learn more about Neptune, the graph database from AWS. The lack of competitors in the graph database market has allowed Neo4j to charge exuberant prices for their offerings. I suspect it will be years before the tooling is mature enough to migrate any existing projects to it, but I&amp;rsquo;d be very happy to learn that isn&amp;rsquo;t the case.&lt;/p&gt;
+
+&lt;p&gt;My other goal is to just learn more about deploying, monitoring, and maintaining cloud services. I, like many developers, know just enough about that side of the business to deploy and troubleshoot things that I work on every day. I&amp;rsquo;m often not in a position to offer alternatives to proposed designs due to ignorance and I hope to remedy that. &lt;/p&gt;
+
+&lt;p&gt;My last interest is around mobile development. Particularly strategies for syncing data to mobile clients and stateful cloud services. I&amp;rsquo;ve only just started learning about AWS Appsync and it looks like it has some good ideas that I&amp;rsquo;d like to dig into. &lt;/p&gt;
+</content>
+  </entry>
+</feed>
